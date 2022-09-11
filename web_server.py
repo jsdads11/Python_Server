@@ -1,5 +1,8 @@
 # https://pythonsansar.com/creating-simple-http-server-python/
 
+# Now let’s import database.py module functions into a new python file 
+# called web_server.py that handles GET and POST requests respectively.
+
 import sys
 import cgi
 from http.server import HTTPServer, SimpleHTTPRequestHandler
